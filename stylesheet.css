@@ -1,0 +1,51 @@
+/* Panel */
+.pulse-bar-box {
+  spacing: 4px;
+}
+
+.pulse-bar-pill {
+  padding: 1px 7px;
+  border-radius: 99px;
+  background-color: rgba(128, 128, 128, 0.18);
+  spacing: 6px;
+}
+
+.pulse-bar-name {
+  font-size: 0.78em;
+  font-weight: bold;
+}
+
+/* Monospace keeps the bar from jittering as numbers change width. */
+.pulse-bar-value {
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.pulse-bar-ok   { color: #5ef2a0; }
+.pulse-bar-warn { color: #ffd166; }
+.pulse-bar-hot  { color: #ff7a59; }
+.pulse-bar-idle { color: #8a93a8; }
+
+/* Light panels need darker shades to stay readable. */
+.pulse-bar-light .pulse-bar-ok   { color: #0d9450; }
+.pulse-bar-light .pulse-bar-warn { color: #b87800; }
+.pulse-bar-light .pulse-bar-hot  { color: #d63a1e; }
+.pulse-bar-light .pulse-bar-idle { color: #6b7385; }
+
+/* Click-open panel */
+.pulse-bar-row-name {
+  min-width: 3.2em;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.pulse-bar-row-detail {
+  font-family: monospace;
+  font-size: 0.92em;
+  padding-right: 14px;
+}
+
+.pulse-bar-spark {
+  width: 96px;
+  height: 18px;
+}

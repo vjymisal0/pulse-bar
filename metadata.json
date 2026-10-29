@@ -1,0 +1,9 @@
+{
+  "uuid": "pulse-bar@vjymisal0.github.io",
+  "name": "Pulse Bar",
+  "description": "Live CPU, GPU, RAM, temperatures, fans, disk and network in your top bar. Click for a compact panel with live trend graphs.",
+  "shell-version": ["45", "46", "47", "48", "49"],
+  "settings-schema": "org.gnome.shell.extensions.pulse-bar",
+  "url": "https://github.com/vjymisal0/pulse-bar",
+  "version-name": "1.0.0"
+}

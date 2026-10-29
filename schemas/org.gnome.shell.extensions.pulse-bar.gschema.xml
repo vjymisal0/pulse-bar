@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.pulse-bar" path="/org/gnome/shell/extensions/pulse-bar/">
+    <key name="refresh-interval" type="i">
+      <range min="500" max="10000"/>
+      <default>1500</default>
+      <summary>Refresh interval in milliseconds</summary>
+    </key>
+    <key name="show-cpu" type="b">
+      <default>true</default>
+      <summary>Show CPU in the panel</summary>
+    </key>
+    <key name="show-gpu" type="b">
+      <default>true</default>
+      <summary>Show GPU in the panel</summary>
+    </key>
+    <key name="show-ram" type="b">
+      <default>true</default>
+      <summary>Show RAM in the panel</summary>
+    </key>
+    <key name="show-net" type="b">
+      <default>false</default>
+      <summary>Show network speed in the panel</summary>
+    </key>
+    <key name="show-temps" type="b">
+      <default>true</default>
+      <summary>Show temperatures next to CPU and GPU usage in the panel</summary>
+    </key>
+    <key name="temp-unit" type="s">
+      <choices>
+        <choice value="C"/>
+        <choice value="F"/>
+      </choices>
+      <default>"C"</default>
+      <summary>Temperature unit</summary>
+    </key>
+    <key name="temp-warn" type="i">
+      <range min="30" max="110"/>
+      <default>70</default>
+      <summary>Temperature (°C) at which values turn yellow</summary>
+    </key>
+    <key name="temp-crit" type="i">
+      <range min="30" max="110"/>
+      <default>85</default>
+      <summary>Temperature (°C) at which values turn red</summary>
+    </key>
+    <key name="panel-position" type="s">
+      <choices>
+        <choice value="left"/>
+        <choice value="center"/>
+        <choice value="right"/>
+      </choices>
+      <default>"right"</default>
+      <summary>Where in the panel the indicator sits</summary>
+    </key>
+  </schema>
+</schemalist>
